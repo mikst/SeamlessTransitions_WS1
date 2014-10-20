@@ -87,8 +87,8 @@ void loop() {
 
 
     // repoart the random number to the serial
-    //    Serial.print("randomValue: ");
-    //    Serial.println(randomValue);
+       Serial.print("randomValue: ");
+        Serial.println(randomValue);
 
   }
 
