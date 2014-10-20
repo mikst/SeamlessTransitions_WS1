@@ -29,7 +29,7 @@ void loop() {
  int thisPitch = map(sensorValue, 0,1023,120,1500);
  
  // output the sound (120-1500 frequency range)
-  tone(9, thisPitch, 10);
+  tone(speakerPin, thisPitch, 10);
  
   
   delay(1);        // delay in between reads for stability

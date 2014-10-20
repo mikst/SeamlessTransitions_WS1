@@ -29,9 +29,9 @@ void loop() {
   // the bigger the value is, the slower the pattern gets
   
 
-  tone(speakerPin, 262);
+  tone(speakerPin, 1000);
   delay(sensorValue);
-  noTone(8);
+  noTone(speakerPin);
   delay(sensorValue);
   
   delay(1);        // delay in between reads for stability
