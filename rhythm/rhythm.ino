@@ -6,7 +6,7 @@
  
  */
  
- // decide which pin will be output
+ // decide which pin willw be output
  int outputPin=12;
  
   // a variable to store the sensor value
